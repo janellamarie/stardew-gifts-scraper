@@ -1,0 +1,1379 @@
+[{
+	"name": "Jodi",
+	"birthday": "Fall 11",
+	"loves": [
+		"Chocolate Cake",
+		"Crispy Bass",
+		"Diamond",
+		"Eggplant Parmesan",
+		"Fried Eel",
+		"Pancakes",
+		"Rhubarb Pie",
+		"Vegetable Medley"
+	],
+	"likes": [
+		"All Eggs (except Void Egg)",
+		"All Fruit (except Spice Berry)",
+		"All Milk"
+	],
+	"neutral": [],
+	"dislikes": [
+		"All Mushrooms (except Red)",
+		"Garlic",
+		"Ginger",
+		"Hazelnut",
+		"Holly",
+		"Leek",
+		"Quartz",
+		"Snow Yam",
+		"Wild Horseradish",
+		"Winter Root"
+	],
+	"hates": [
+		"Daffodil",
+		"Dandelion",
+		"Spice Berry"
+	]
+}, {
+	"name": "Kent",
+	"birthday": "Spring 04",
+	"loves": [
+		"Fiddlehead Risotto",
+		"Roasted Hazelnuts"
+	],
+	"likes": [
+		"All Eggs (except Void Egg)",
+		"All Fruit",
+		"Daffodil"
+	],
+	"neutral": [
+		"All Mushrooms (except Red)",
+		"Dandelion",
+		"Ginger",
+		"Hazelnut",
+		"Leek",
+		"Wild Horseradish",
+		"Winter Root"
+	],
+	"dislikes": [
+		"Piña Colada",
+		"Quartz",
+		"Snow Yam"
+	],
+	"hates": [
+		"All Milk",
+		"Algae Soup",
+		"Holly",
+		"Sashimi",
+		"Tortilla"
+	]
+}, {
+	"name": "Linus",
+	"birthday": "Winter 03",
+	"loves": [
+		"Blueberry Tart",
+		"Cactus Fruit",
+		"Coconut",
+		"Dish O' The Sea",
+		"Yam"
+	],
+	"likes": [
+		"All Eggs (except Void Egg)",
+		"All Milk",
+		"All Fruit (except Cactus Fruit \u0026 Coconut)",
+		"All Mushrooms (except Red)",
+		"Daffodil",
+		"Dandelion",
+		"Ginger",
+		"Hazelnut",
+		"Holly",
+		"Leek",
+		"Snow Yam",
+		"Spring Onion",
+		"Wild Horseradish",
+		"Winter Root"
+	],
+	"neutral": [
+		"All Fish (except Carp \u0026 Snail)"
+	],
+	"dislikes": [
+		"All Foraged Minerals",
+		"All Gems (except Diamond \u0026 Prismatic Shard)"
+	],
+	"hates": []
+}, {
+	"name": "Haley",
+	"birthday": "Spring 14",
+	"loves": [
+		"Coconut",
+		"Fruit Salad",
+		"Pink Cake",
+		"Sunflower"
+	],
+	"likes": [
+		"Daffodil"
+	],
+	"neutral": [],
+	"dislikes": [
+		"All Eggs",
+		"All Fruit (except Coconut)",
+		"All Milk",
+		"All Mushrooms (except Red)",
+		"All Vegetables (except Hops, Tea Leaves, \u0026 Wheat)",
+		"Dandelion",
+		"Ginger",
+		"Hazelnut",
+		"Holly",
+		"Leek",
+		"Quartz",
+		"Snow Yam",
+		"Winter Root"
+	],
+	"hates": [
+		"All Fish",
+		"Clay",
+		"Prismatic Shard",
+		"Wild Horseradish"
+	]
+}, {
+	"name": "Evelyn",
+	"birthday": "Winter 20",
+	"loves": [
+		"Beet",
+		"Chocolate Cake",
+		"Diamond",
+		"Fairy Rose",
+		"Stuffing",
+		"Tulip"
+	],
+	"likes": [
+		"All Milk",
+		"Daffodil"
+	],
+	"neutral": [
+		"All Eggs (except Void Egg)",
+		"All Fruit (except Fruit Tree Fruit, Salmonberry \u0026 Spice Berry)",
+		"All Mushrooms (except Red)",
+		"Dandelion",
+		"Ginger",
+		"Hazelnut",
+		"Leek",
+		"Snow Yam",
+		"Winter Root"
+	],
+	"dislikes": [
+		"Quartz",
+		"Wild Horseradish"
+	],
+	"hates": [
+		"All Fish",
+		"Clam",
+		"Clay",
+		"Coral",
+		"Fried Eel",
+		"Garlic",
+		"Holly",
+		"Maki Roll",
+		"Salmonberry",
+		"Sashimi",
+		"Spice Berry",
+		"Spicy Eel",
+		"Trout Soup"
+	]
+}, {
+	"name": "Jas",
+	"birthday": "Summer 04",
+	"loves": [
+		"Fairy Rose",
+		"Pink Cake",
+		"Plum Pudding"
+	],
+	"likes": [
+		"Coconut",
+		"Daffodil"
+	],
+	"neutral": [
+		"All Milk"
+	],
+	"dislikes": [
+		"All Eggs",
+		"All Fruit (except Coconut \u0026 Fruit Tree Fruit)",
+		"All Mushrooms (except Red)",
+		"All Vegetables (except Hops, Tea Leaves, \u0026 Wheat)",
+		"Dandelion",
+		"Ginger",
+		"Hazelnut",
+		"Holly",
+		"Leek",
+		"Quartz",
+		"Snow Yam",
+		"Winter Root"
+	],
+	"hates": [
+		"All Artisan Goods (except Honey, Jelly, \u0026 Oil)",
+		"Clay",
+		"Triple Shot Espresso",
+		"Wild Horseradish"
+	]
+}, {
+	"name": "Abigail",
+	"birthday": "Fall 13",
+	"loves": [
+		"Amethyst",
+		"Banana Pudding",
+		"Blackberry Cobbler",
+		"Chocolate Cake",
+		"Pufferfish",
+		"Pumpkin",
+		"Spicy Eel"
+	],
+	"likes": [
+		"Quartz"
+	],
+	"neutral": [
+		"All Milk",
+		"All Mushrooms (except Red)",
+		"Daffodil",
+		"Dandelion",
+		"Ginger",
+		"Hazelnut",
+		"Leek",
+		"Snow Yam",
+		"Winter Root"
+	],
+	"dislikes": [
+		"All Eggs",
+		"All Fruit (except Fruit Tree Fruit)",
+		"All Vegetables (except Hops, Pumpkin, Tea Leaves, \u0026 Wheat)",
+		"Sugar",
+		"Wild Horseradish"
+	],
+	"hates": [
+		"Clay",
+		"Holly"
+	]
+}, {
+	"name": "Lewis",
+	"birthday": "Spring 07",
+	"loves": [
+		"Autumn's Bounty",
+		"Glazed Yams",
+		"Green Tea",
+		"Hot Pepper",
+		"Vegetable Medley"
+	],
+	"likes": [
+		"Blueberry",
+		"Cactus Fruit",
+		"Coconut"
+	],
+	"neutral": [
+		"All Eggs (except Void Egg)",
+		"All Fruit (except Blueberry, Cactus Fruit, Coconut, Fruit Tree Fruit, Hot Pepper, \u0026 Salmonberry)",
+		"All Mushrooms (except Red)",
+		"Daffodil",
+		"Dandelion",
+		"Ginger",
+		"Hazelnut",
+		"Leek",
+		"Snow Yam",
+		"Winter Root"
+	],
+	"dislikes": [
+		"All Milk",
+		"Salmonberry",
+		"Wild Horseradish"
+	],
+	"hates": [
+		"Holly",
+		"Quartz"
+	]
+}, {
+	"name": "",
+	"birthday": "",
+	"loves": null,
+	"likes": null,
+	"neutral": null,
+	"dislikes": null,
+	"hates": null
+}, {
+	"name": "Harvey",
+	"birthday": "Winter 14",
+	"loves": [
+		"Coffee",
+		"Pickles",
+		"Super Meal",
+		"Truffle Oil",
+		"Wine"
+	],
+	"likes": [
+		"All Fruit (except Salmonberry \u0026 Spice Berry)",
+		"All Mushrooms (except Red)",
+		"Daffodil",
+		"Dandelion",
+		"Duck Egg",
+		"Duck Feather",
+		"Ginger",
+		"Goat Milk",
+		"Hazelnut",
+		"Holly",
+		"Large Goat Milk",
+		"Leek",
+		"Quartz",
+		"Snow Yam",
+		"Spring Onion",
+		"Wild Horseradish",
+		"Winter Root"
+	],
+	"neutral": [
+		"All Eggs (except Duck Egg \u0026 Void Egg)",
+		"Large Milk",
+		"Milk"
+	],
+	"dislikes": [
+		"Blueberry Tart",
+		"Bread",
+		"Cheese",
+		"Chocolate Cake",
+		"Cookie",
+		"Cranberry Sauce",
+		"Fried Mushroom",
+		"Glazed Yams",
+		"Goat Cheese",
+		"Hashbrowns",
+		"Ice Cream",
+		"Pancakes",
+		"Pink Cake",
+		"Pizza",
+		"Rhubarb Pie",
+		"Rice Pudding"
+	],
+	"hates": [
+		"Coral",
+		"Nautilus Shell",
+		"Rainbow Shell",
+		"Salmonberry",
+		"Spice Berry"
+	]
+}, {
+	"name": "Sebastian",
+	"birthday": "Winter 10",
+	"loves": [
+		"Frozen Tear",
+		"Obsidian",
+		"Pumpkin Soup",
+		"Sashimi",
+		"Void Egg"
+	],
+	"likes": [
+		"Flounder",
+		"Quartz"
+	],
+	"neutral": [
+		"All Fruit (except Fruit Tree Fruit \u0026 Salmonberry)",
+		"All Fish (except Carp, Flounder, \u0026 Snails)",
+		"All Milk"
+	],
+	"dislikes": [
+		"All Flowers (except Poppy)",
+		"All Mushrooms (except Red)",
+		"Daffodil",
+		"Dandelion",
+		"Ginger",
+		"Hazelnut",
+		"Holly",
+		"Leek",
+		"Salmonberry",
+		"Snow Yam",
+		"Wild Horseradish",
+		"Winter Root"
+	],
+	"hates": [
+		"All Artisan Goods (except Coffee, Green Tea, \u0026 Oil)",
+		"All Eggs (except Void Egg)",
+		"Clay",
+		"Complete Breakfast",
+		"Farmer's Lunch",
+		"Omelet"
+	]
+}, {
+	"name": "Krobus",
+	"birthday": "Winter 01",
+	"loves": [
+		"Diamond",
+		"Iridium Bar",
+		"Pumpkin",
+		"Void Egg",
+		"Void Mayonnaise",
+		"Wild Horseradish"
+	],
+	"likes": [
+		"Gold Bar",
+		"Quartz",
+		"Seafoam Pudding"
+	],
+	"neutral": [
+		"All Eggs (except Void Egg)",
+		"All Milk",
+		"All Fruit (except Fruit Tree Fruit \u0026 Salmonberry)"
+	],
+	"dislikes": [
+		"All Cooking (except Bread, Fried Egg, Seafoam Pudding \u0026 Strange Bun)",
+		"All Mushrooms (except Red)",
+		"Daffodil",
+		"Dandelion",
+		"Ginger",
+		"Hazelnut",
+		"Holly",
+		"Leek",
+		"Life Elixir",
+		"Salmonberry",
+		"Snow Yam",
+		"Winter Root"
+	],
+	"hates": []
+}, {
+	"name": "Universals",
+	"birthday": "N/A",
+	"loves": [
+		"Golden Pumpkin",
+		"Magic Rock Candy",
+		"Pearl",
+		"Prismatic Shard",
+		"Rabbit's Foot"
+	],
+	"likes": [
+		"All Artisan Goods (except Oil \u0026 Void Mayonnaise)",
+		"All Cooking (except Bread, Fried Egg, Seafoam Pudding, \u0026 Strange Bun)",
+		"All Flowers (except Poppy)",
+		"All Foraged Minerals (except Quartz)",
+		"All Fruit Tree Fruit",
+		"All Gems",
+		"All Vegetables (except Hops, Tea Leaves, Unmilled Rice, \u0026 Wheat)",
+		"Life Elixir",
+		"Maple Syrup"
+	],
+	"neutral": [
+		"Bread",
+		"Clam",
+		"Coral",
+		"Duck Feather",
+		"Fried Egg",
+		"Hops",
+		"Nautilus Shell",
+		"Rainbow Shell",
+		"Roe",
+		"Squid Ink",
+		"Sweet Gem Berry",
+		"Tea Leaves",
+		"Truffle",
+		"Wheat",
+		"Wool"
+	],
+	"dislikes": [],
+	"hates": []
+}, {
+	"name": "Demetrius",
+	"birthday": "Summer 19",
+	"loves": [
+		"Bean Hotpot",
+		"Ice Cream",
+		"Rice Pudding",
+		"Strawberry"
+	],
+	"likes": [
+		"All Eggs (except Void Egg)",
+		"All Fruit (except Strawberry)",
+		"Purple Mushroom"
+	],
+	"neutral": [
+		"All Fish (except Carp \u0026 Snail)",
+		"All Milk",
+		"All Mushrooms (except Red \u0026 Purple)",
+		"Daffodil",
+		"Dandelion",
+		"Ginger",
+		"Hazelnut",
+		"Leek",
+		"Snow Yam",
+		"Wild Horseradish",
+		"Winter Root"
+	],
+	"dislikes": [
+		"Quartz"
+	],
+	"hates": [
+		"Holly"
+	]
+}, {
+	"name": "George",
+	"birthday": "Fall 24",
+	"loves": [
+		"Fried Mushroom",
+		"Leek"
+	],
+	"likes": [
+		"Daffodil"
+	],
+	"neutral": [
+		"All Eggs (except Void Egg)",
+		"All Fruit (except Fruit Tree Fruit \u0026 Salmonberry)",
+		"All Milk",
+		"All Mushrooms (except Red)",
+		"Ginger",
+		"Hazelnut",
+		"Snow Yam",
+		"Winter Root"
+	],
+	"dislikes": [
+		"All Flowers (except Poppy)",
+		"Salmonberry",
+		"Wild Horseradish"
+	],
+	"hates": [
+		"Clay",
+		"Dandelion",
+		"Holly",
+		"Quartz"
+	]
+}, {
+	"name": "Pierre",
+	"birthday": "Spring 26",
+	"loves": [
+		"Fried Calamari"
+	],
+	"likes": [
+		"All Eggs (except Void Egg)",
+		"All Milk",
+		"Daffodil",
+		"Dandelion"
+	],
+	"neutral": [
+		"All Fruit (except Fruit Tree Fruit \u0026 Salmonberry)"
+	],
+	"dislikes": [
+		"All Foraged Minerals",
+		"All Gems (except Diamond \u0026 Prismatic Shard)",
+		"All Mushrooms (except Red)",
+		"Ginger",
+		"Hazelnut",
+		"Holly",
+		"Leek",
+		"Salmonberry",
+		"Snow Yam",
+		"Wild Horseradish",
+		"Winter Root"
+	],
+	"hates": [
+		"All Fish",
+		"Corn",
+		"Garlic",
+		"Parsnip Soup",
+		"Tortilla"
+	]
+}, {
+	"name": "Wizard",
+	"birthday": "Winter 17",
+	"loves": [
+		"Purple Mushroom",
+		"Solar Essence",
+		"Super Cucumber",
+		"Void Essence"
+	],
+	"likes": [
+		"All Geode Minerals",
+		"Quartz"
+	],
+	"neutral": [
+		"All Fruit (except Fruit Tree Fruit \u0026 Salmonberry)"
+	],
+	"dislikes": [
+		"All Eggs",
+		"All Milk",
+		"All Mushrooms (except Red \u0026 Purple)",
+		"Daffodil",
+		"Dandelion",
+		"Ginger",
+		"Hazelnut",
+		"Holly",
+		"Leek",
+		"Salmonberry",
+		"Slime",
+		"Snow Yam",
+		"Wild Horseradish",
+		"Winter Root"
+	],
+	"hates": []
+}, {
+	"name": "Shane",
+	"birthday": "Spring 20",
+	"loves": [
+		"Beer",
+		"Hot Pepper",
+		"Pepper Poppers",
+		"Pizza"
+	],
+	"likes": [
+		"All Eggs (except Void Egg)",
+		"All Fruit (except Hot Pepper)"
+	],
+	"neutral": [
+		"All Milk"
+	],
+	"dislikes": [
+		"All Mushrooms (except Red)",
+		"Daffodil",
+		"Dandelion",
+		"Ginger",
+		"Hazelnut",
+		"Holly",
+		"Leek",
+		"Seaweed",
+		"Snow Yam",
+		"Wild Horseradish",
+		"Winter Root"
+	],
+	"hates": [
+		"Pickles",
+		"Quartz"
+	]
+}, {
+	"name": "Penny",
+	"birthday": "Fall 02",
+	"loves": [
+		"Diamond",
+		"Emerald",
+		"Melon",
+		"Poppy",
+		"Poppyseed Muffin",
+		"Red Plate",
+		"Roots Platter",
+		"Sandfish",
+		"Tom Kha Soup"
+	],
+	"likes": [
+		"All Artifacts",
+		"All Milk",
+		"Dandelion",
+		"Leek"
+	],
+	"neutral": [
+		"All Eggs (except Void Egg)",
+		"All Fruit (except Fruit Tree Fruit, Grape, Melon \u0026 Salmonberry)",
+		"All Mushrooms (except Red \u0026 Purple)",
+		"Daffodil",
+		"Ginger",
+		"Hazelnut",
+		"Snow Yam",
+		"Wild Horseradish",
+		"Winter Root"
+	],
+	"dislikes": [
+		"Algae Soup",
+		"Duck Feather",
+		"Pale Broth",
+		"Purple Mushroom",
+		"Quartz",
+		"Red Mushroom",
+		"Salmonberry",
+		"Wool"
+	],
+	"hates": [
+		"Beer",
+		"Grape",
+		"Holly",
+		"Hops",
+		"Mead",
+		"Pale Ale",
+		"Piña Colada",
+		"Rabbit's Foot",
+		"Wine"
+	]
+}, {
+	"name": "Dwarf",
+	"birthday": "Summer 22",
+	"loves": [
+		"Amethyst",
+		"Aquamarine",
+		"Emerald",
+		"Jade",
+		"Lemon Stone",
+		"Omni Geode",
+		"Ruby",
+		"Topaz"
+	],
+	"likes": [
+		"All Artifacts",
+		"Cave Carrot",
+		"Quartz"
+	],
+	"neutral": [
+		"All Fruit (except Fruit Tree Fruit \u0026 Salmonberry)",
+		"Solar Essence",
+		"Void Essence"
+	],
+	"dislikes": [
+		"All Eggs",
+		"All Milk",
+		"All Mushrooms (except Red)",
+		"Daffodil",
+		"Dandelion",
+		"Ginger",
+		"Hazelnut",
+		"Holly",
+		"Leek",
+		"Salmonberry",
+		"Snow Yam",
+		"Wild Horseradish",
+		"Winter Root"
+	],
+	"hates": []
+}, {
+	"name": "Vincent",
+	"birthday": "Spring 10",
+	"loves": [
+		"Cranberry Candy",
+		"Ginger Ale",
+		"Grape",
+		"Pink Cake",
+		"Snail"
+	],
+	"likes": [
+		"Coconut",
+		"Daffodil"
+	],
+	"neutral": [
+		"All Milk"
+	],
+	"dislikes": [
+		"All Eggs",
+		"All Fruit (except Coconut, Grape \u0026 Fruit Tree Fruit)",
+		"All Vegetables (except Hops, Tea Leaves, \u0026 Wheat)",
+		"All Mushrooms (except Red)",
+		"Dandelion",
+		"Ginger",
+		"Hazelnut",
+		"Holly",
+		"Leek",
+		"Quartz",
+		"Snow Yam",
+		"Winter Root"
+	],
+	"hates": [
+		"All Artisan Goods (except Honey, Jelly, \u0026 Oil)",
+		"Clay",
+		"Triple Shot Espresso",
+		"Wild Horseradish"
+	]
+}, {
+	"name": "Sam",
+	"birthday": "Summer 17",
+	"loves": [
+		"Cactus Fruit",
+		"Maple Bar",
+		"Pizza",
+		"Tigerseye"
+	],
+	"likes": [
+		"All Eggs (except Void Egg)",
+		"Joja Cola"
+	],
+	"neutral": [
+		"All Fruit (except Cactus Fruit, Fruit Tree Fruit \u0026 Salmonberry)",
+		"All Milk"
+	],
+	"dislikes": [
+		"All Mushrooms (except Red)",
+		"All Vegetables (except Hops, Tea Leaves, \u0026 Wheat)",
+		"Daffodil",
+		"Dandelion",
+		"Ginger",
+		"Hazelnut",
+		"Holly",
+		"Leek",
+		"Quartz",
+		"Salmonberry",
+		"Seaweed",
+		"Snow Yam",
+		"Wild Horseradish",
+		"Winter Root"
+	],
+	"hates": [
+		"Coal",
+		"Copper Bar",
+		"Duck Mayonnaise",
+		"Gold Bar",
+		"Gold Ore",
+		"Iridium Bar",
+		"Iridium Ore",
+		"Iron Bar",
+		"Mayonnaise",
+		"Pickles",
+		"Refined Quartz"
+	]
+}, {
+	"name": "Leah",
+	"birthday": "Winter 23",
+	"loves": [
+		"Goat Cheese",
+		"Poppyseed Muffin",
+		"Salad",
+		"Stir Fry",
+		"Truffle",
+		"Vegetable Medley",
+		"Wine"
+	],
+	"likes": [
+		"All Eggs (except Void Egg)",
+		"All Fruit",
+		"All Milk",
+		"All Mushrooms (except Red)",
+		"Daffodil",
+		"Dandelion",
+		"Driftwood",
+		"Ginger",
+		"Hazelnut",
+		"Holly",
+		"Leek",
+		"Snow Yam",
+		"Spring Onion",
+		"Wild Horseradish",
+		"Winter Root"
+	],
+	"neutral": [],
+	"dislikes": [
+		"All Foraged Minerals (except Earth Crystal)",
+		"All Gems (except Diamond \u0026 Prismatic Shard)",
+		"Carp Surprise",
+		"Cookie",
+		"Fried Egg",
+		"Ice Cream",
+		"Pink Cake",
+		"Rice Pudding",
+		"Seaweed",
+		"Survival Burger",
+		"Tortilla"
+	],
+	"hates": [
+		"Bread",
+		"Hashbrowns",
+		"Pancakes",
+		"Pizza",
+		"Void Egg"
+	]
+}, {
+	"name": "Leo",
+	"birthday": "Summer 26",
+	"loves": [
+		"Duck Feather",
+		"Mango",
+		"Ostrich Egg",
+		"Poi"
+	],
+	"likes": [
+		"Dragon Tooth",
+		"Nautilus Shell",
+		"Quartz",
+		"Rainbow Shell",
+		"Sea Urchin",
+		"Spice Berry"
+	],
+	"neutral": [
+		"All Eggs (except Ostrich Egg \u0026 Void Egg)",
+		"All Fish",
+		"All Fruit (except Fruit Tree Fruit, Mango, Salmonberry, \u0026 Spice Berry)",
+		"All Milk",
+		"Coffee"
+	],
+	"dislikes": [
+		"All Cooking (except Bread, Fried Egg, Mango Sticky Rice, Poi \u0026 Triple Shot Espresso)",
+		"All Mushrooms (except Morel \u0026 Red)",
+		"Daffodil",
+		"Dandelion",
+		"Ginger",
+		"Hazelnut",
+		"Leek",
+		"Life Elixir",
+		"Pickles",
+		"Salmonberry",
+		"Snow Yam",
+		"Wild Horseradish",
+		"Winter Root"
+	],
+	"hates": [
+		"Beer",
+		"Holly",
+		"Hops",
+		"Mead",
+		"Morel",
+		"Oil",
+		"Pale Ale",
+		"Piña Colada",
+		"Triple Shot Espresso",
+		"Unmilled Rice",
+		"Wine"
+	]
+}, {
+	"name": "Willy",
+	"birthday": "Summer 24",
+	"loves": [
+		"Catfish",
+		"Diamond",
+		"Iridium Bar",
+		"Mead",
+		"Octopus",
+		"Pumpkin",
+		"Sea Cucumber",
+		"Sturgeon"
+	],
+	"likes": [
+		"Gold Bar",
+		"Lingcod",
+		"Quartz",
+		"Seafoam Pudding",
+		"Tiger Trout"
+	],
+	"neutral": [
+		"All Eggs (except Void Egg)",
+		"All Fish (except Carp, Catfish, Lingcod, Octopus, Sea Cucumber, Snail, Sturgeon \u0026 Tiger Trout)",
+		"All Fruit (except Fruit Tree Fruit \u0026 Salmonberry)",
+		"All Milk",
+		"Dish O' The Sea",
+		"Maki Roll",
+		"Sashimi"
+	],
+	"dislikes": [
+		"All Cooking except for Bread, Fried Egg, Strange Bun; the fish dishes he is neutral towards: Dish O' The Sea, Maki Roll, \u0026 Sashimi; and the fish dishes he likes: Baked Fish, Carp Surprise, Chowder, Crab Cakes, Crispy Bass, Fish Stew, Fish Taco, Fried Calamari, Fried Eel, Lobster Bisque, Salmon Dinner, Seafoam Pudding, \u0026 Trout Soup",
+		"All Mushrooms (except Red)",
+		"Daffodil",
+		"Dandelion",
+		"Ginger",
+		"Hazelnut",
+		"Holly",
+		"Leek",
+		"Life Elixir",
+		"Salmonberry",
+		"Snow Yam",
+		"Wild Horseradish",
+		"Winter Root"
+	],
+	"hates": []
+}, {
+	"name": "Alex",
+	"birthday": "Summer 13",
+	"loves": [
+		"Complete Breakfast",
+		"Salmon Dinner"
+	],
+	"likes": [
+		"All Eggs (except Void Egg)"
+	],
+	"neutral": [
+		"All Fruit (except Fruit Tree Fruit \u0026 Salmonberry)",
+		"All Milk",
+		"All Mushrooms (except Red)",
+		"Daffodil",
+		"Dandelion",
+		"Ginger",
+		"Hazelnut",
+		"Leek",
+		"Snow Yam",
+		"Winter Root"
+	],
+	"dislikes": [
+		"Salmonberry",
+		"Wild Horseradish"
+	],
+	"hates": [
+		"Holly",
+		"Quartz"
+	]
+}, {
+	"name": "Emily",
+	"birthday": "Spring 27",
+	"loves": [
+		"Amethyst",
+		"Aquamarine",
+		"Cloth",
+		"Emerald",
+		"Jade",
+		"Ruby",
+		"Survival Burger",
+		"Topaz",
+		"Wool"
+	],
+	"likes": [
+		"Daffodil",
+		"Quartz"
+	],
+	"neutral": [
+		"All Eggs (except Void Egg)",
+		"All Fruit (except Fruit Tree Fruit \u0026 Salmonberry)",
+		"All Milk",
+		"All Mushrooms (except Red)",
+		"Dandelion",
+		"Ginger",
+		"Hazelnut",
+		"Leek",
+		"Snow Yam",
+		"Wild Horseradish",
+		"Winter Root"
+	],
+	"dislikes": [
+		"Fried Eel",
+		"Ice Cream",
+		"Rice Pudding",
+		"Salmonberry",
+		"Spicy Eel"
+	],
+	"hates": [
+		"Fish Taco",
+		"Holly",
+		"Maki Roll",
+		"Salmon Dinner",
+		"Sashimi"
+	]
+}, {
+	"name": "Pam",
+	"birthday": "Spring 18",
+	"loves": [
+		"Beer",
+		"Cactus Fruit",
+		"Glazed Yams",
+		"Mead",
+		"Pale Ale",
+		"Parsnip",
+		"Parsnip Soup",
+		"Piña Colada"
+	],
+	"likes": [
+		"All Fruit (except Cactus Fruit)",
+		"All Milk",
+		"Daffodil"
+	],
+	"neutral": [
+		"All Fish (except Carp, Octopus, Snail \u0026 Squid)",
+		"All Mushrooms (except Red)",
+		"Dandelion",
+		"Ginger",
+		"Hazelnut",
+		"Leek",
+		"Snow Yam",
+		"Winter Root"
+	],
+	"dislikes": [
+		"All Eggs",
+		"Quartz",
+		"Wild Horseradish"
+	],
+	"hates": [
+		"Holly",
+		"Octopus",
+		"Squid"
+	]
+}, {
+	"name": "Robin",
+	"birthday": "Fall 21",
+	"loves": [
+		"Goat Cheese",
+		"Peach",
+		"Spaghetti"
+	],
+	"likes": [
+		"All Milk",
+		"All Fruit (except Peach)",
+		"Hardwood",
+		"Quartz"
+	],
+	"neutral": [
+		"All Eggs (except Void Egg)",
+		"All Mushrooms (except Red)",
+		"Daffodil",
+		"Dandelion",
+		"Ginger",
+		"Hazelnut",
+		"Leek",
+		"Snow Yam",
+		"Winter Root"
+	],
+	"dislikes": [
+		"Wild Horseradish"
+	],
+	"hates": [
+		"Holly"
+	]
+}, {
+	"name": "Caroline",
+	"birthday": "Winter 07",
+	"loves": [
+		"Fish Taco",
+		"Green Tea",
+		"Summer Spangle",
+		"Tropical Curry"
+	],
+	"likes": [
+		"Daffodil",
+		"Tea Leaves"
+	],
+	"neutral": [
+		"All Eggs (except Void Egg)",
+		"All Fruit (except Fruit Tree Fruit \u0026 Salmonberry)",
+		"All Milk"
+	],
+	"dislikes": [
+		"All Mushrooms (except Red)",
+		"Amaranth",
+		"Dandelion",
+		"Duck Mayonnaise",
+		"Ginger",
+		"Hazelnut",
+		"Holly",
+		"Leek",
+		"Mayonnaise",
+		"Snow Yam",
+		"Wild Horseradish",
+		"Winter Root"
+	],
+	"hates": [
+		"Quartz",
+		"Salmonberry"
+	]
+}, {
+	"name": "Clint",
+	"birthday": "Winter 26",
+	"loves": [
+		"Amethyst",
+		"Aquamarine",
+		"Artichoke Dip",
+		"Emerald",
+		"Fiddlehead Risotto",
+		"Gold Bar",
+		"Iridium Bar",
+		"Jade",
+		"Omni Geode",
+		"Ruby",
+		"Topaz"
+	],
+	"likes": [
+		"Copper Bar",
+		"Iron Bar"
+	],
+	"neutral": [
+		"All Eggs (except Void Egg)",
+		"All Fruit (except Fruit Tree Fruit \u0026 Salmonberry)",
+		"All Milk",
+		"All Mushrooms (except Red)",
+		"Coal",
+		"Daffodil",
+		"Dandelion",
+		"Ginger",
+		"Gold Ore",
+		"Hazelnut",
+		"Iridium Ore",
+		"Leek",
+		"Refined Quartz",
+		"Snow Yam",
+		"Winter Root"
+	],
+	"dislikes": [
+		"All Flowers (except Poppy)",
+		"Quartz",
+		"Salmonberry",
+		"Wild Horseradish"
+	],
+	"hates": [
+		"Holly"
+	]
+}, {
+	"name": "Gus",
+	"birthday": "Summer 08",
+	"loves": [
+		"Diamond",
+		"Escargot",
+		"Fish Taco",
+		"Orange",
+		"Tropical Curry"
+	],
+	"likes": [
+		"Daffodil"
+	],
+	"neutral": [
+		"All Eggs (except Void Egg)",
+		"All Fruit (except Fruit Tree Fruit \u0026 Salmonberry)",
+		"All Milk",
+		"All Mushrooms (except Red)",
+		"Dandelion",
+		"Ginger",
+		"Hazelnut",
+		"Leek",
+		"Snow Yam",
+		"Winter Root"
+	],
+	"dislikes": [
+		"Salmonberry",
+		"Wild Horseradish"
+	],
+	"hates": [
+		"Coleslaw",
+		"Holly",
+		"Quartz"
+	]
+}, {
+	"name": "Sandy",
+	"birthday": "Fall 15",
+	"loves": [
+		"Crocus",
+		"Daffodil",
+		"Mango Sticky Rice",
+		"Sweet Pea"
+	],
+	"likes": [
+		"All Fruit",
+		"Goat Milk",
+		"Large Goat Milk",
+		"Quartz",
+		"Wool"
+	],
+	"neutral": [
+		"All Eggs (except Void Egg)",
+		"All Mushrooms (except Red)",
+		"Dandelion",
+		"Ginger",
+		"Hazelnut",
+		"Large Milk",
+		"Leek",
+		"Milk",
+		"Snow Yam",
+		"Wild Horseradish",
+		"Winter Root"
+	],
+	"dislikes": [],
+	"hates": [
+		"Holly"
+	]
+}, {
+	"name": "Elliott",
+	"birthday": "Fall 05",
+	"loves": [
+		"Crab Cakes",
+		"Duck Feather",
+		"Lobster",
+		"Pomegranate",
+		"Squid Ink",
+		"Tom Kha Soup"
+	],
+	"likes": [
+		"All Fruit (except Pomegranate \u0026 Salmonberry)",
+		"Octopus",
+		"Squid"
+	],
+	"neutral": [
+		"All Eggs (except Void Egg)",
+		"All Fish (except Carp, Lobster, Octopus, Sea Cucumber, Snails \u0026 Squid)"
+	],
+	"dislikes": [
+		"All Milk",
+		"All Mushrooms (except Red)",
+		"Daffodil",
+		"Dandelion",
+		"Ginger",
+		"Hazelnut",
+		"Holly",
+		"Leek",
+		"Pizza",
+		"Snow Yam",
+		"Wild Horseradish",
+		"Winter Root"
+	],
+	"hates": [
+		"Amaranth",
+		"Quartz",
+		"Salmonberry",
+		"Sea Cucumber"
+	]
+}, {
+	"name": "Maru",
+	"birthday": "Summer 10",
+	"loves": [
+		"Battery Pack",
+		"Cauliflower",
+		"Cheese Cauliflower",
+		"Diamond",
+		"Gold Bar",
+		"Iridium Bar",
+		"Miner's Treat",
+		"Pepper Poppers",
+		"Radioactive Bar",
+		"Rhubarb Pie",
+		"Strawberry"
+	],
+	"likes": [
+		"Copper Bar",
+		"Iron Bar",
+		"Oak Resin",
+		"Pine Tar",
+		"Quartz",
+		"Radioactive Ore"
+	],
+	"neutral": [
+		"All Eggs (except Void Egg)",
+		"All Fruit (except Blackberry, Crystal Fruit, Fruit Tree Fruit, Salmonberry \u0026 Strawberry)",
+		"All Milk",
+		"All Mushrooms (except Common \u0026 Red)",
+		"Daffodil",
+		"Dandelion",
+		"Ginger",
+		"Hazelnut",
+		"Leek",
+		"Wild Horseradish",
+		"Winter Root"
+	],
+	"dislikes": [
+		"Blackberry",
+		"Common Mushroom",
+		"Crystal Fruit",
+		"Maple Syrup",
+		"Salmonberry"
+	],
+	"hates": [
+		"Holly",
+		"Honey",
+		"Pickles",
+		"Snow Yam",
+		"Truffle"
+	]
+}, {
+	"name": "Marnie",
+	"birthday": "Fall 18",
+	"loves": [
+		"Diamond",
+		"Farmer's Lunch",
+		"Pink Cake",
+		"Pumpkin Pie"
+	],
+	"likes": [
+		"All Eggs (except Void Egg)",
+		"All Milk",
+		"Quartz"
+	],
+	"neutral": [
+		"All Fruit (except Fruit Tree Fruit \u0026 Salmonberry)",
+		"All Mushrooms (except Red)",
+		"Daffodil",
+		"Dandelion",
+		"Ginger",
+		"Hazelnut",
+		"Leek",
+		"Snow Yam",
+		"Winter Root"
+	],
+	"dislikes": [
+		"Salmonberry",
+		"Seaweed",
+		"Wild Horseradish"
+	],
+	"hates": [
+		"Clay",
+		"Holly"
+	]
+}]

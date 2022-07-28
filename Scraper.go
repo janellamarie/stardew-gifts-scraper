@@ -27,7 +27,7 @@ type Villager struct {
 
 var villagers map[string]Villager // map of Villagers
 
-func main() {
+func scrapeGifts() {
 	url := "https://stardewvalleywiki.com/List_of_All_Gifts" // URL to scrape
 
 	villagers = make(map[string]Villager) // initialize the map

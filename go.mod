@@ -1,4 +1,4 @@
-module stardew-valley-gifts-scraper
+module stardew-gifts-finder
 
 go 1.18
 

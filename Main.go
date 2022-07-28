@@ -3,5 +3,5 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Main")
+	fmt.Println("Welcome to the Stardew Valley Gifts Finder!")
 }

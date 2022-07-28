@@ -14,7 +14,7 @@ import (
 	"github.com/gocolly/colly"
 )
 
-// Villager object
+// Villager struct to contain information
 type Villager struct {
 	Name     string   `json:"name"`
 	Birthday string   `json:"birthday"`
@@ -25,12 +25,12 @@ type Villager struct {
 	Hates    []string `json:"hates"`
 }
 
-var villagers map[string]Villager // define a map of Villagers
+var villagers map[string]Villager // map of Villagers
 
 func main() {
-	url := "https://stardewvalleywiki.com/List_of_All_Gifts"
+	url := "https://stardewvalleywiki.com/List_of_All_Gifts" // URL to scrape
 
-	villagers = make(map[string]Villager)
+	villagers = make(map[string]Villager) // initialize the map
 
 	c := colly.NewCollector() // a collector makes HTTP request + traverses HTML pages
 
@@ -62,27 +62,21 @@ func main() {
 					data.Text = data.Text[:len(data.Text)-1] // slice the string by "extending" the length of the slice
 					name = data.Text
 					temp.Name = name
-					villagers[data.Text] = temp
 				case 1: // birthday
 					temp.Birthday = data.Text[:len(data.Text)-1]
-					villagers[name] = temp
 				case 2: // loves
 					temp.Loves = parseList(data.Text[:len(data.Text)-1])
-					villagers[name] = temp
 				case 3: // likes
 					temp.Likes = parseList(data.Text[:len(data.Text)-1])
-					villagers[name] = temp
 				case 4: // neutral
 					temp.Neutral = parseList(data.Text[:len(data.Text)-1])
-					villagers[name] = temp
 				case 5: // dislikes
 					temp.Dislikes = parseList(data.Text[:len(data.Text)-1])
-					villagers[name] = temp
 				case 6: // hates
 					temp.Hates = parseList(data.Text[:len(data.Text)-1])
-					villagers[name] = temp
 				}
 			})
+			villagers[name] = temp
 		})
 	})
 
@@ -90,7 +84,7 @@ func main() {
 	c.Visit(url) // starts the scraper
 
 	displayAllVillagers(villagers)
-	exportToJSON(villagers)
+	exportToJSON(villagers) // export the villagers map into a JSON file
 }
 
 func displayAllVillagers(villagers map[string]Villager) {
@@ -112,7 +106,6 @@ func parseList(list string) []string {
 		res := regex.ReplaceAllLiteralString(item, "")
 		final[i] = res
 	}
-	fmt.Println(final[1:])
 	return final[1:]
 }
 
@@ -145,5 +138,5 @@ func exportToJSON(villagers map[string]Villager) {
 		}
 	}
 
-	_, err = file.WriteString("]")
+	_, err = file.WriteString("]") // add closing bracket
 }

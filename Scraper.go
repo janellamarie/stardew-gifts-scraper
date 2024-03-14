@@ -1,5 +1,6 @@
-/* Stardew Valley Wiki: https://stardewvalleywiki.com/List_of_All_Gifts
- * Tutorials: https://oxylabs.io/blog/golang-web-scraper, -https://blog.logrocket.com/web-scraping-with-go-and-colly/, https://blog.logrocket.com/building-web-scraper-go-colly/
+/*
+ *Stardew Valley Wiki: https://stardewvalleywiki.com/List_of_All_Gifts
+ * Tutorials: https://oxylabs.io/blog/golang-web-scraper, https://blog.logrocket.com/web-scraping-with-go-and-colly/, https://blog.logrocket.com/building-web-scraper-go-colly/
  */
 
 package main
@@ -27,7 +28,7 @@ type Villager struct {
 
 var villagers map[string]Villager // map of Villagers
 
-func scrapeGifts() {
+func ScrapeGifts() {
 	url := "https://stardewvalleywiki.com/List_of_All_Gifts" // URL to scrape
 
 	villagers = make(map[string]Villager) // initialize the map
@@ -43,12 +44,12 @@ func scrapeGifts() {
 
 	// runs every time Colly receives a response
 	c.OnResponse(func(r *colly.Response) {
-		fmt.Println("Got a response: ", r.StatusCode)
+		fmt.Println("Response from request: ", r.StatusCode)
 	})
 
 	// runs whenever Colly encounters an error while making the request
 	c.OnError(func(r *colly.Response, e error) {
-		fmt.Println("Got this error:", e)
+		fmt.Println("colly encountered an error: ", e)
 	})
 
 	// parse the HTML elements
@@ -84,6 +85,7 @@ func scrapeGifts() {
 	c.Visit(url) // starts the scraper
 
 	displayAllVillagers(villagers)
+	fmt.Println("Finished scraping, exporting to JSON file (villagers.json)")
 	exportToJSON(villagers) // export the villagers map into a JSON file
 }
 
@@ -110,18 +112,24 @@ func parseList(list string) []string {
 }
 
 func exportToJSON(villagers map[string]Villager) {
-	ctr := 0                                 // ctr just to check if it's the first JSON object
+	ctr := 0 // ctr just to check if it's the first JSON object
+
 	file, err := os.Create("villagers.json") // create the villagers.json file
-	_, err = file.WriteString("[")           // write the opening square bracket for the JSON file
 	if err != nil {
-		fmt.Println(err)
+		fmt.Println("error encountered while writing JSON file: ", err)
+		return
+	}
+
+	_, err = file.WriteString("[") // write the opening square bracket for the JSON file
+	if err != nil {
+		fmt.Println("error encountered while writing JSON file: ", err)
 		return
 	}
 
 	for _, villager := range villagers { // iterate through the map of villagers
 		v, err := json.MarshalIndent(villager, "", "\t") // format the object into a JSON supported text
 		if err != nil {
-			fmt.Println(err)
+			fmt.Println("error encountered while writing JSON file: ", err)
 			return
 		}
 
@@ -134,9 +142,14 @@ func exportToJSON(villagers map[string]Villager) {
 		}
 
 		if err != nil {
-			fmt.Println(err)
+			fmt.Println("error encountered while writing JSON file: ", err)
 		}
 	}
 
 	_, err = file.WriteString("]") // add closing bracket
+	if err != nil {
+		fmt.Println("error encountered while writing JSON file: ", err)
+	}
+
+	fmt.Println("Finished exporting to JSON file")
 }

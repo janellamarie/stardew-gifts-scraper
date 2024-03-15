@@ -26,9 +26,18 @@ type Villager struct {
 	Hates    []string `json:"hates"`
 }
 
+type VercelType struct {
+	Birthday string   `json:"birthday"`
+	Loves    []string `json:"loves"`
+	Likes    []string `json:"likes"`
+	Neutral  []string `json:"neutral"`
+	Dislikes []string `json:"dislikes"`
+	Hates    []string `json:"hates"`
+}
+
 var villagers map[string]Villager // map of Villagers
 
-func ScrapeGifts() {
+func ScrapeGifts(jsonType int) {
 	url := "https://stardewvalleywiki.com/List_of_All_Gifts" // URL to scrape
 
 	villagers = make(map[string]Villager) // initialize the map
@@ -85,8 +94,14 @@ func ScrapeGifts() {
 	c.Visit(url) // starts the scraper
 
 	displayAllVillagers(villagers)
-	fmt.Println("Finished scraping, exporting to JSON file (villagers.json)")
-	exportToJSON(villagers) // export the villagers map into a JSON file
+	if jsonType == 1 {
+		fmt.Println("Finished scraping, exporting to JSON file (villagers.json)")
+		exportToJSON(villagers) // export the villagers map into a JSON file
+	} else {
+		fmt.Println("Finished scraping, exporting to JSON file (villagers.json)")
+		exportToVercelBlob(villagers) // export the villagers map into a JSON file
+	}
+
 }
 
 func displayAllVillagers(villagers map[string]Villager) {
@@ -149,6 +164,65 @@ func exportToJSON(villagers map[string]Villager) {
 	_, err = file.WriteString("]") // add closing bracket
 	if err != nil {
 		fmt.Println("error encountered while writing JSON file: ", err)
+	}
+
+	fmt.Println("Finished exporting to JSON file")
+}
+
+func exportToVercelBlob(villagers map[string]Villager) {
+	ctr := 0 // ctr just to check if it's the first JSON object// counter to check if object
+
+	file, err := os.Create("villagers-vercel-blob.json") // create the villagers.json file
+	if err != nil {
+		fmt.Println("error encountered while writing JSON file: ", err)
+		return
+	}
+
+	_, err = file.WriteString("{") // write the opening curly bracket for the JSON file
+	if err != nil {
+		fmt.Println("error encountered while writing JSON file: ", err)
+		return
+	}
+
+	for _, villager := range villagers { // iterate through the map of villagers
+		tempVillager := VercelType{
+			Birthday: villager.Birthday,
+			Loves:    villager.Loves,
+			Likes:    villager.Likes,
+			Neutral:  villager.Neutral,
+			Dislikes: villager.Dislikes,
+			Hates:    villager.Hates,
+		}
+
+		v, err := json.MarshalIndent(tempVillager, "", "\t") // format the object into a JSON supported text
+		if err != nil {
+			fmt.Println("error encountered while writing JSON file: ", err)
+			return
+		}
+
+		if ctr > 0 {
+			_, err = file.Write([]byte(", "))
+			if err != nil {
+				fmt.Println("error encountered while writing JSON file: ", err)
+			}
+		}
+
+		villagerName := "\"" + villager.Name + "\": "
+		_, err = file.Write([]byte(villagerName))
+		if err != nil {
+			fmt.Println("error encountered while writing JSON file: ", err)
+		}
+		_, err = file.Write(v)
+		if err != nil {
+			fmt.Println("error encountered while writing JSON file: ", err)
+		}
+		ctr++
+	}
+
+	_, err = file.WriteString("}") // write the closing curly bracket for the JSON file
+	if err != nil {
+		fmt.Println("error encountered while writing JSON file: ", err)
+		return
 	}
 
 	fmt.Println("Finished exporting to JSON file")

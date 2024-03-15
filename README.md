@@ -4,8 +4,6 @@ This app basically goes through the [Stardew Valley's List of All Gifts](https:/
 
 This project also serves as *my* practice for **Golang**. 
 
-This is part of a larger web project which can be found [here](https://github.com/janellamarie/stardew-gift-finder-web).
-
 ## How to use
 1. `go build -o stardew-gifts-scraper.exe`
 2. Run `./stardew-gifts-scraper.exe`
